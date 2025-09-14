@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section2{
+    margin-top: 70px;
+}
+.bgimg1{
+    background-image: url(photos/ProjectBGimgSEc2.avif);
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.sec1text{
+    color: white;
+    font-size: x-large;
+    margin-left: 130px;
+    margin-top: 240px;
+}    
+.sec1text2{
+    color: white;
+    margin-left: 160px;
+    font-size: xx-large;
+}
+.section3{
+    /* border: 1px solid; */
+    padding: 50px 50px 20px 50px;
+    margin-bottom: 40px;
+}
+.sec3card1{
+    background-image: url(photos/section6card1.avif);
+    display: inline-block;
+    vertical-align: top;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 300px;
+
+}
+.sec3card2{
+    background-image: url(photos/section6card2.avif);
+    display: inline-block;
+    vertical-align: top;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 300px;
+    margin-left: 25px;
+
+}
+.sec3card3{
+    background-image: url(photos/section6card3.avif);
+    display: inline-block;
+    vertical-align: top;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 300px;
+    margin-left: 25px;
+
+}
+.sec3card4{
+    background-image: url(photos/section6card4.avif);
+    display: inline-block;
+    vertical-align: top;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35%;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+
+    height: 300px;
+    /* margin-left: 25px; */
+
+}
+.sec3card5{
+    background-image: url(photos/section6card3.avif);
+    display: inline-block;
+    vertical-align: top;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 30%;
+    height: 300px;
+    margin-left: 25px;
+
+}
+.sec3card6{
+    background-image: url(photos/section6card3.avif);
+    display: inline-block;
+    vertical-align: top;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 30%;
+    height: 300px;
+    margin-left: 25px;
+
+}
+.bgtext{
+    margin-top: 260px;
+    margin-left: 20px;
+    color: white;
+}
+.bgtext2{
+    padding-top: 260px;
+    margin-left: 20px;
+    color: white;
+}

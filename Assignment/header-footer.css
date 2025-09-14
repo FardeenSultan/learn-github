@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.headforpos{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 33;
+    background-color: white;
+}
+.header{
+    /* border: 1px solid; */
+    display: inline-block;
+    /* padding: 5px; */
+    vertical-align: top;
+    /* position: fixed; */
+    /* bottom: 10px; */
+    /* background-color: white; */
+}
+.fa-wix{
+    font-size: xx-large;
+}
+.logo{
+    width: 15%;
+    text-align: center;
+    margin-left: 40px;
+}
+.pages{
+    margin-left: 550px;
+
+}
+li{
+    display: inline-block;
+    margin: 20px 20px;
+    /* margin-left: 200px; */
+    /* vertical-align: top; */
+    /* text-decoration: none; */
+}
+.headanchor{
+    text-decoration: none;
+    color: black;
+}
+.headanchorbutton{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid; */
+    padding: 5px 10px;
+    font-size: larger;
+    background-color: #E3FF00;
+}
+.headanchorbutton:hover{
+    background-color: black;
+    border: 1px solid;
+    color: white;
+    transition: 0.8s;
+}
+.headanchor:hover{
+    text-decoration: underline;
+
+}
+.section7{
+    border: 1px solid white;
+    height: 250px;
+    text-align: center;
+    background-color: #E3FF00;
+}
+.textmargin{
+    margin-top: 40px;
+}
+.sec7button{
+    border: none;
+    background-color: black;
+    color: #E3FF00;
+    font-size: x-large;
+}
+.sec7button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+.secfooter{
+    background-color: #f3eded;
+    padding: 80px;
+}
+.footerside1{
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    
+
+}
+.footanchor{
+    text-decoration: none;
+    color: black;
+    
+}
+.footerside2{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+
+}
+.footerside3{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+
+}
+.footerside4{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+
+}
+.footerside5{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+
+}
+.footerside6{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align: right;
+
+}

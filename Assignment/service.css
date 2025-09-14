@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.section1{
+    width: 100%;
+}
+.section2{
+    /* border: 1px solid; */
+    margin: 50px;
+    margin-top: 100px;
+}
+.sec2part1{
+    /* border: 1px solid; */
+    width: 56%;
+    display: inline-block;
+    vertical-align: top;
+}
+.sec2part2{
+    /* border: 1px solid; */
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+h2{
+    width: 100%;
+    /* text-decoration: none; */
+    text-decoration: overline ;
+    color: black;
+}
+h2:hover{
+    background-color:#E3FF00 ;
+    /* text-decoration: none; */
+}
+
