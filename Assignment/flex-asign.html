@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    #head{
+        width: 100%;
+        height: 80px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    #flexusing{
+        width: 100%;
+        height: 250px;
+        border: green;
+        display: flex;
+        justify-content: center;
+    }
+    .one{
+        height: 200px;
+        width: 50%;
+        border: 1px solid red;
+        text-align: center;
+    }
+    #container2{
+        width: 100%;
+        height: 250px;
+        border: 1px solid;
+        display:flex ;
+        justify-content: space-between;
+        text-align: center;
+    }
+    #container3{
+        width: 100%;
+        height: 250px;
+        border: 1px solid;
+        display:flex ;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    #container4{
+        width: 100%;
+        height: 250px;
+        border: 1px solid;
+        display:flex ;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .jus{
+        border: 3px solid pink;
+        width: 20%;
+        height: 150px;
+    }
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+</style>
+<body>
+    <header id="head">
+        <h1>Header</h1>
+    </header>
+    <div id="flexusing">
+        <div class="one"> <h2>Wellcome Pakistan</h2></div>
+    </div>
+    <div id="container2">
+        <div class="jus">Between</div>
+        <div class="jus">Between</div>
+        <div class="jus">Between</div>
+    </div>
+    <div id="container3">
+        <div class="jus">Evenly</div>
+        <div class="jus">Evenly</div>
+        <div class="jus">Evenly</div>
+    </div>
+    <div id="container4">
+        <div class="jus">Round</div>
+        <div class="jus">Round</div>
+        <div class="jus">Round</div>
+    </div>
+    <footer>
+        <h1>Footer</h1>
+
+    </footer>
+    
+</body>
+</html>
