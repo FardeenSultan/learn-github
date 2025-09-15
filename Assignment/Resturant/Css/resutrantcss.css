@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#header{
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    background-color: #2B3035;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.Pagesname{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    text-decoration: none;
+    font-family: cursive;   
+    color: white;
+}
+.pagebutton{
+    text-decoration: none;
+    font-family: cursive;   
+    color: white;
+    margin-top: 10px;  
+}
+.headpages{
+     margin-left: 20px;
+    margin-right: 20px;
+}
+.orderbutton{
+    font-family: cursive;
+    font-size: large;
+    border-radius: 40px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    margin: 7px;
+    background-color: #FFC107;
+}
