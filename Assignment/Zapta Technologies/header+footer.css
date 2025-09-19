@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#maincontainer{
+    width: 100%;
+}
+.headforpges{
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    z-index: 30;
+    background-color: white;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+}
+.logo{
+    width: 50%;
+    margin-left: 30px;
+}
+.ulfor{
+    align-self: center;
+}
+ul{
+    display: flex;
+    column-gap: 80px;
+    margin-left: 100px;
+}
+li{
+    list-style: none;
+}
+.headanchor{
+    text-decoration: none;
+    color: #005BAA;
+}
+.headanchor:hover{
+    text-decoration: underline;
+    color: black;
+}
