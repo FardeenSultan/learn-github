@@ -24,12 +24,12 @@ header{
 .ulfor{
     align-self: center;
 }
-ul{
+.secul{
     display: flex;
     column-gap: 80px;
     margin-left: 100px;
 }
-li{
+.seccli{
     list-style: none;
 }
 .headanchor{
@@ -39,4 +39,89 @@ li{
 .headanchor:hover{
     text-decoration: underline;
     color: black;
+}
+/* Footer */
+#section9foot1{
+    display: flex;
+    background-color: #02385D;
+    padding: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.sec9foot1p1{
+    width: 50%;
+    align-self: center;
+}
+.sec9foot1p2{
+    display: flex;
+    font-size: larger;
+
+}
+.sec9foot1img{
+    margin-top: 20px;
+}
+.sec9foot1p2nbrs{
+    font-family: sans-serif;
+    font-size: large;
+    margin-top: 50px;
+    margin-left: 20px;
+    /* text-decoration: none; */
+}
+.foot1p2achr{
+    text-decoration: none;
+    color: white;
+}
+/* footer2 */
+#section10foot2{
+    background-color: #0A2540;
+    padding: 50px;
+}
+.sec10foot1{
+    display: flex;
+    column-gap: 60px;
+    padding-top: 50px;
+    
+}
+.sec10foot1forcolor{
+    color: #798896;
+}
+.sec10foot1divs{
+    width: 25%;
+    color: white;
+}
+.sec10foot1anchr{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #7F8D9B;
+}
+.sec10foot1anchr:hover{
+    color: white;
+}
+.sect10foot2{
+    display: flex;
+    color: white;
+    padding-top: 15px;
+    column-gap: 240px;
+}
+.fa-arrow-down{
+    text-decoration: none;
+    padding:10px;
+    margin-left: 10px;
+    border-radius: 90%;
+    color: white;
+    background-color:#005BAA ;
+}
+.sec10logos{
+    text-decoration: none;
+    color: #005BAA;
+    background-color: white;
+    padding: 6px;
+    border-radius: 90%;
+    margin: 0px 5px;
+}
+.sec10logos:hover{
+    background-color: #005BAA;
+    color: white;
+    transition: 0.8s;
 }
