@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#maincontainer{
+    width: 100%;
+}
+#section2{
+    background-color: #006DB9;
+    padding: 50px;
+    margin-top: 40px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: sans-serif;
+    font-size: larger;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+.sec2text{
+    margin: 0px 220px;
+}
+#Section3{
+    background-color: #F8FAFC;
+    display: flex;
+    padding:90px 50px;
+    column-gap: 60px;
+}
+.sec3texxt{
+    width: 40%;
+    color: rgb(43, 42, 42);
+    font-size: large;
+    font-family: sans-serif;
+}
+.sec3img{
+    border-radius: 10px;
+}
+#bdimg1{
+    background-image: url(/Photos/section4bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 65vh;
+}
+.bgimg1text{
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    position: absolute;
+}
+.coma1{
+    text-align: left;
+}
+.comas2{
+    text-align: right;
+}
+.tobeheading{
+    margin: 0px 20px;
+    font-size: larger;
+}
+#section5{
+    padding: 100px 50px 50px 50px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.sec5cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 50px 0px;
+}
+.sec5cardsin{
+    width: 280px;
+    box-shadow: 0px 0px 20px 0px rgba(105, 105, 255, 0.438);
+    color: rgb(54, 54, 54);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 50px;
+
+}
+#section6{
+    background-color: #012842;
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+}
+.sec6text{
+    width: 45%;
+    align-self: center;
+}
+.sec6img{
+    margin-left: 150px;
+}

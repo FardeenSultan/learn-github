@@ -4,7 +4,6 @@
 }
 #maincontainer{
     width: 100%;
-    border: 1px solid;
 }
 #vedio{
     position: absolute;
@@ -13,7 +12,7 @@
     background-color: #3675b880;
     position: relative;
     top: 0px;
-    height: 700px;
+    height: 760px;
     margin-top: 60px;
     width: 100%;
 }

@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#maincontainer{ 
+    width: 100%;
+    border: 1px solid;
+}
+#section2{
+    background-color: rgb(66, 66, 204);
+    display: flex;
+    padding: 80px 50px 80px 50px;
+    margin-top: 80px;
+    color: white;
+
+}
+.sec2text{
+    align-self: center;
+    font-size: larger;
+    font-family: sans-serif;
+    width: 60%;
+}
+.sec2btn{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+}
+.sec2btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.imgsec2{
+    margin-left: 200px;
+}
+#section3{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+
+}
+.availtext{
+    width: 50%;
+    font-size: large;
+    font-family: sans-serif;
+}
+.butns{
+    width: 50%;
+    text-align: right;
+}
+#searchjob{
+    padding: 15px 30px;
+    border: 1px solid;
+    border-radius: 10px 0px 0px 10px;
+}
+.fa-magnifying-glass{
+    padding: 14px 30px 17px 30px;
+    background-color: #005BAA;
+    color: white;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+
+}
+#section4{
+    padding: 50px;
+}
+.sec4{
+    box-shadow: 0px 0px 20px 0px rgb(192, 191, 191);
+    border-radius: 10px;
+    padding: 50px;
+}
+.sec4part1{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    align-items: end;
+}
+.phtyontext{
+    font-family: sans-serif;
+    width: 85%;
+}
+.fa-location-dot{
+    
+    color:#636363 ;
+}
+.sec4part2{
+    display: flex;
+    flex-wrap: wrap;
+    color:#636363 ;
+    /* column-gap: 50px; */
+}
+.sec4part2in{
+    width: 19%;
+}
+.sec4part2in1{
+    width: 22%;
+}
+.sec4part2inbdintern{
+    width: 21%;
+}
+.sec4part2invisual1{
+    width: 27%;
+}
+.sec4part2invisual{
+    width: 16%;
+}
+.sec4part2invisual2{
+    width: 22%;
+}
+.sec4part4btn1{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #005BAA;
+    border: 1px solid #005BAA ;
+    border-radius: 5px;
+}
+.sec4part4btn2{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #005BAA;
+    background-color: white;
+    border: 1px solid #005BAA ;
+    border-radius: 5px;
+
+}
