@@ -29,6 +29,9 @@
     padding: 40px;
     background-color: #fcfafa;
 }
+.span{
+    color: #005BAA;
+}
 .sec3in{
     display: flex;
 }
@@ -180,6 +183,9 @@
     color: white;
     font-size: x-large;
 
+}
+.sec8textclr{
+    color: black;
 }
 .sec7btn{
     text-decoration: none;
