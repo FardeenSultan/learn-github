@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#mainContainer{
+    width: 100%;
+}
+.headpotn{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 200;
+    background-color: #0A101E;
+    padding: 15px 0px;
+}
+.containerpadmarg{
+    margin: 0px 150px;
+    padding: 0px 12px;
+}
+.pgesflx{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    align-self: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+}
+.scndflex{
+    display: flex;
+}
+.ulflex{
+    display: flex;
+    align-self: center;
+}
+.pgsmarg{
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+    
+}
+.pgsmarg:hover{
+    color: #a9adb8;
+
+}
+li{
+    list-style: none;
+}
+.phonefont{
+    color: white;
+    align-self: center;
+    margin-left: 30px;
+}
+.fa-phone{
+    padding-left: 30px;
+}
+.phnnbr{
+    align-self: center;
+    color: #FEC544;
+    padding-left: 10px;
+}
+.sec1{
+    width: 100%;
+    height: 850px;
+    background-color: #080E1E;
+    position: relative;
+}
+.bgimg{
+    background-image:url(/Photos/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 710px;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+.bgimgtext{
+    width: 50%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bgimghelo{
+    font-size: 30px;
+    margin-left: 10px;
+    font-style: italic;
+    color: #FEC544;
+}
+.bgimgmyname{
+    font-size: 120px;
+}
+.bgimgvisual{
+    font-size: 33px;
+    font-style: italic;
+    color: rgba(134, 134, 134, 0.795);
+}
+.bgimghirbtn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: #FEC544;
+    border-radius: 30px;
+    padding: 15px 50px;
+}
+.bgimghirbtn:hover{
+    box-shadow: 0px 2px 8px #FEC544;
+    transition: 0.8s;
+}
+.sec1p2{
+    background-color: #080E1E;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.socillogos{
+    display: flex;
+    border: 1px solid;
+    color: #a9adb8;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+}
+.logossocial{
+    text-decoration: none;
+    color: #a9adb8;
+    padding: 15px;
+    margin: 0px 10px;
+    border: 1px solid;
+    border-radius: 100%;
+
+}
+.formarg{
+    margin-right: 100px;
+}
