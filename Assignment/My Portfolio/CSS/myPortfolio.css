@@ -7,8 +7,8 @@
 }
 .headpotn{
     width: 100%;
-    position: fixed;
-    top: 0px;
+    position: sticky;
+    top: 0;
     z-index: 200;
     background-color: #0A101E;
     padding: 15px 0px;
@@ -72,24 +72,26 @@ li{
     background-position: center;
     background-repeat: no-repeat;
     height: 710px;
+    
 }
 .background{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
-
+    padding: 50px;
 }
 .bgimgtext{
-    width: 50%;
+    width: 40%;
+    height: 500px;
+    transform: translate(-350px);
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .bgimghelo{
-    font-size: 30px;
-    margin-left: 10px;
     font-style: italic;
     color: #FEC544;
+    transform: translate(10px);
 }
 .bgimgmyname{
     font-size: 120px;
@@ -113,20 +115,24 @@ li{
 }
 .sec1p2{
     background-color: #080E1E;
-    padding: 40px;
+    padding: 28px;
     display: flex;
     justify-content: center;
 }
 .socillogos{
     display: flex;
-    border: 1px solid;
-    color: #a9adb8;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    color: #232935;
+    background-color: #232935;
+
     border-radius: 50px 0px 0px 50px;
+    transform: translate(-230px);
     padding: 20px;
 }
 .logossocial{
     text-decoration: none;
     color: #a9adb8;
+    background-color: #080E1E;
     padding: 15px;
     margin: 0px 10px;
     border: 1px solid;
@@ -134,5 +140,10 @@ li{
 
 }
 .formarg{
-    margin-right: 100px;
+    margin-right: 80px;
+}
+.photoganja{
+    position: absolute;
+    top: 0px;
+    left: 600px;
 }

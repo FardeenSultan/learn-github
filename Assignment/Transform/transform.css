@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.div1{
+    border: 2px solid pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    /* transform: translate(0px,0px); */
+}
+.div1:hover{
+    transform: translate(100px,100px);
+    transition: 0.8s;
+}
+.div2{
+    border: 2px solid pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    /* transform: rotate(100deg); */
+}
+.div2:hover{
+    transform: rotate(100deg);
+    transition: 0.8s;
+}
+.div3{
+    border: 2px solid pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.div3:hover{
+    transform: rotate(-100deg);
+    transition: 0.8s;
+}
+.div4{
+    border: 2px solid pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    /* transform: scale(); */
+}
+.div4:hover{
+    transform: scale(5,1);
+    transition: 0.8s;
+}
+.div5{
+    border: 2px solid pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.div5:hover{
+    transform: scale(0.5,0.1);
+    transition: 0.8s;
+}
+.div6{
+    border: 2px solid pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.div6:hover{
+    transform: skew(10deg,20deg);
+    transition: 0.8s;
+}
+
+.div7{
+    border: 2px solid pink;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.div7:hover{
+    transform: matrix(3, 0, 0, 0, 0, 0);
+    transition: 0.8s;
+}
