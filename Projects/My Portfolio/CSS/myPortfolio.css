@@ -394,7 +394,46 @@ td {
 }
 .sec7cards{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0px 80px;
+    column-gap: 20px
+    
+}
+.sec7card1{
+    width: 360px;
+    height: 300px;
+    background-color: #232935;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 55%, 67% 56%, 50% 76%, 34% 55%, 1% 56%);
+    /* border: 1px solid white; */
+    padding: 10px;
+
+}
+.sec7card1:hover{
+    border:2px solid #FEC544;
+    transition: 0.8s;
+    
+}
+.sec7imgs{
+    width: 360px;
+    /* border: 1px solid; */
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.secc7imgsh2:hover{
+    color: #FEC544;
+
+}
+.sec7p{
+    color: rgba(255, 255, 255, 0.336);
+    font-size: 25px;
+    
+}
+.secc7imgsp{
+    color: #a9adb8;
 }
 #sec8{
     width: 100%;
@@ -466,6 +505,7 @@ td {
 }
 .sec9txtp{
     color: rgba(255, 255, 255, 0.466);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .sec9iconsflx{
@@ -473,22 +513,24 @@ td {
     column-gap: 30px;
     margin-top: 20px;
 }
-.fa-solid{
+.sec9icons{
     border: 1px solid;
     padding: 15px;
     border-radius: 30px;
     color: rgba(255, 255, 255, 0.61);
 }
-.fa-solid:hover{
+.sec9icons:hover{
     color: #FEC544;
 }
 .sec9txtmails{
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 .sec9iconstxt{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .sec9iconstxt:hover{
     color: #FEC544;
@@ -496,6 +538,7 @@ td {
 .sec9taxtlasth3{
     color: rgba(255, 255, 255, 0.582);
     font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .frmagn{
     margin: 0px 10px;
