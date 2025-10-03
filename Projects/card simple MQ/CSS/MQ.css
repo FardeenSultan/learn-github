@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#maincontainer{
+    width: 100%;
+}
+#sec1{
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.sec1part1{
+    width: 40%;
+    color: white;
+}
+.sec1h1{
+    font-size:45px;
+}
+.sec1btn{
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid; */
+    padding: 5px 20px;
+    background-color: black;
+    box-shadow: 0px 0px 5px  black;
+}
+.sec1btn:hover{
+    background-color: pink;
+    color: white;
+    box-shadow: 0px 0px 5px  black;
+    transition: 0.8s;
+}
+.sec1part2{
+    width: 500px;
+}
+#sec2{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px ;
+}
+
+@media screen and (max-width: 760px) {
+    #maincontainer{
+    width:100%;
+}
+    #sec1{
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 20px 0px 20px 20px;
+    display: inline-block;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: blueviolet;
+}
+.sec1part1{
+    width: 100%;
+    color: white;
+    /* padding: 20px ; */
+}
+.sec1h1{
+    font-size:40px;
+}
+.sec1part2{
+    padding-top: 35px;
+    width: 90%;
+}
+.sec1btn{
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid; */
+    /* padding: 5px 20px; */
+    background-color: black;
+    box-shadow: 0px 0px 5px  black;
+}
+.sec1btn:hover{
+    background-color: pink;
+    color: white;
+    box-shadow: 0px 0px 5px  black;
+    transition: 0.8s;
+}
+#sec2{
+    width: 100%;
+    padding-top: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 20px;
+    text-align: center;
+}
+.se2card1{
+    width: 270px;
+    border: 1px solid;
+    display: inline-block;
+}
+.se2card2{
+    width: 270px;
+    border: 1px solid;
+    display: inline-block;
+}
+.se2card3{
+    width: 270px;
+    border: 1px solid;
+    display: inline-block;
+}
+.se2card4{
+    width: 270px;
+    border: 1px solid;
+    display: inline-block;
+}
+.se2card5{
+    width: 270px;
+    border: 1px solid;
+    display: inline-block;
+}
+.se2card6{
+    width: 270px;
+    border: 1px solid;
+    display: inline-block;
+}
+.sec2h1:hover{
+    color: white;
+    background-color: black;
+    transition: 0.8s;
+
+}
+    
+}
