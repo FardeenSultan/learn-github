@@ -6,7 +6,6 @@
 #maincontainer {
     width: 100%;
 }
-
 header {
     padding: 0px 12px;
     background-color: white;
@@ -14,26 +13,22 @@ header {
     top: 0;
     z-index: 2020;
 }
-
 .headmain {
     margin: 0px 48px;
     padding: 0px 12px;
 }
-
 .headFFlx {
     display: flex;
     justify-content: center;
     align-self: center;
     padding: 25px 0px;
 }
-
 .istudiohead {
     text-decoration: none;
     color: black;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .headerpgs {
     width: 90%;
     display: flex;
@@ -42,14 +37,12 @@ header {
     justify-content: center;
     margin-left: 200px;
 }
-
 .pgstext {
     text-decoration: none;
     color: black;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .pgstext:hover {
     color: #0d6b68;
 }
@@ -72,6 +65,134 @@ header {
     transition: 0.5s;
 
 }
+/* FOOTER */
+#sec9foot{
+    background-color: #03201F;
+    padding: 140px 70px 50px 70px;
+}
+.sec9footflx{
+    display: flex;
+    flex-wrap: wrap;   
+    column-gap: 40px;
+}
+.foottext1{
+    width: 25%;
+    color: white;
+}
+.footh1STUDIO{
+    font-size: 50px;
+}
+.footp{
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgba(134, 133, 133, 0.712);
+}
+.GiT{
+    width: 25%;
+    color: white;
+}
+.footh1GiT{
+    font-size: 40px;
+    font-weight: 50;
+}
+.footicnsdiv{
+    margin-top: 50px;
+}
+.footicns{
+    font-size: 30px;
+    color: rgba(134, 133, 133, 0.712);
+}
+.loctnspan{
+    color: rgba(134, 133, 133, 0.712);
+    font-size: 30px;
+}
+.footsocial{
+    margin-top: 20px;
+}
+.footsocialicns{
+    text-decoration: none;
+    color: #0c5f5c;
+}
+.sec9footsocialicn{
+    border: 3px solid;
+    padding: 15px 10px;
+    font-size: 20px;
+}
+.sec9footsocialicn:hover{
+    border: 3px solid #0c5f5c;
+    padding: 15px 10px;
+    background-color: #0c5f5c;
+    color: white;
+    transition: 0.5s;
+}
+.poplnkdiv{
+    width: 20%;
+    color: white;
+}
+.poplinkh1{
+    font-size: 40px;
+    font-weight: 50;
+}
+.anchrdiv{
+    margin-top: 40px;
+}
+.poplinkanchr{
+    text-decoration: none;
+    color: rgba(134, 133, 133, 0.712);
+    margin-top: 40px;
+}
+.poplinkP{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.poplinkP:hover{
+    color: white;
+}
+.footendflx{
+    display: flex;
+    justify-content: space-between;
+}
+.divtext1{
+    color: rgba(134, 133, 133, 0.712);
+    width: 45%;
+    margin-top: 40px;
+
+}
+.footendh1{
+    font-size: 20px;
+    font-weight: 100;
+
+}
+.footendanchr{
+    color: rgba(134, 133, 133, 0.712);
+}
+.footendanchr:hover{
+    color: white;
+}
+.divtext2{
+    color: rgba(134, 133, 133, 0.712);
+    width: 45%;
+    margin-top: 40px;
+
+}
+.footFAQ{
+    text-align: right;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+.anchrFAQ{
+    text-decoration: none;
+    color: rgba(134, 133, 133, 0.712);
+
+}
+.FAQspan:hover{
+    color: white;
+
+}
+
+
+
 
 
 @media screen and (max-width:600px) {
@@ -108,6 +229,47 @@ header {
     background-color: #0c5f5c;
     transition: 0.5s;
 
+}
+/* FOOTER */
+.sec9footflx{
+    display: inline-block;
+}
+.foottext1{
+    width: 400px;
+}
+.GiT{
+    width: 400px;
+    margin-top: 30px;
+}
+.footicnsdiv{
+    margin-top: 20px;
+}
+.poplnkdiv{
+    width: 400px;
+    color: white;
+    margin-top: 40px;
+}
+.anchrdiv{
+    margin-top: 20px;
+}
+.poplinkanchr{
+    margin-top: 40px;
+}
+.poplinkP{
+    margin-top: 10px;
+}
+.footendflx{
+    display: inline-block;
+}
+.divtext1{
+    width: 410px;
+}
+
+.divtext2{
+    width: 510px;
+}
+.footFAQ{
+    text-align: left;
 }
 }
 
