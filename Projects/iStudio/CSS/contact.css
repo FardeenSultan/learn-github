@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    padding: 0%;
+}
+#sec2contactform{
+    width: 100%;
+}
+.cntctform{
+
+}
+.questndiv{
+    padding: 100px 400px 30px 400px;
+
+}
+.h1question{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+
+}
+.contcSPAN{
+    text-decoration: none;
+    color: #0B5A57;
+    background-color: #0b5a576e;
+
+}
+.textP{
+    font-size: 25px;
+    margin-top: 30px;
+    color: rgba(51, 51, 51, 0.774);
+
+}
+.anchrpSPANcntct{
+    text-decoration: none;
+    color: #0B5A57;
+
+}
+.form{
+    padding: 30px 400px;
+    text-align: center;
+}
+.nameemaildiv{
+    font-size: 30px;
+}
+.nameemail{
+    padding: 20px 150px 20px 30px;
+}
+.subjectdiv{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.inptsubject{
+    padding: 20px 500px 20px 30px;
+}
+.txtmsgdiv{
+    margin-top: 20px;
+}
+.innermsg{
+    padding: 10px 520px 100px 10px ;
+}
+.sumitin{
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px 250px;
+    border: none;
+    color: white;
+    background-color: #0B5A57;
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+.questndiv{
+    padding: 40px 40px 30px 40px;
+
+}
+.form{
+    padding: 30px 40px;
+    text-align: center;
+}
+.nameemaildiv{
+    font-size: 0px;
+}
+.nameemail{
+    padding: 20px 30px 20px 30px;
+}
+.subjectdiv{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.inptsubject{
+    padding: 20px 260px 20px 30px;
+}
+.txtmsgdiv{
+    margin-top: 20px;
+}
+.innermsg{
+    padding: 10px 290px 10px 10px;
+}
+.sumitin{
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 20px 130px;
+    border: none;
+    color: white;
+    background-color: #0B5A57;
+
+}
+    
+}
