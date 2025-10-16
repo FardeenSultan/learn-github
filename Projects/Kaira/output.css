@@ -185,6 +185,9 @@
   }
 }
 @layer utilities {
+  .absolute {
+    position: absolute;
+  }
   .row-end-1 {
     grid-row-end: 1;
   }
@@ -533,6 +536,68 @@
   .translate-220 {
     --tw-translate-x: calc(var(--spacing) * 220);
     --tw-translate-y: calc(var(--spacing) * 220);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-\[ralative\] {
+    --tw-translate-x: ralative;
+    --tw-translate-y: ralative;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-\[relative\] {
+    --tw-translate-x: relative;
+    --tw-translate-y: relative;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-1 {
+    --tw-translate-x: calc(var(--spacing) * 1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-x-1\/2 {
+    --tw-translate-x: calc(1/2 * 100%);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-1 {
+    --tw-translate-y: calc(var(--spacing) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-1\/2 {
+    --tw-translate-y: calc(calc(1/2 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-2 {
+    --tw-translate-y: calc(var(--spacing) * -2);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-2\/2 {
+    --tw-translate-y: calc(calc(2/2 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-1 {
+    --tw-translate-y: calc(var(--spacing) * 1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-1\/2 {
+    --tw-translate-y: calc(1/2 * 100%);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-2 {
+    --tw-translate-y: calc(var(--spacing) * 2);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-2\/2 {
+    --tw-translate-y: calc(2/2 * 100%);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-\[-1\/2\] {
+    --tw-translate-y: -1/2;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-\[-1\/3\] {
+    --tw-translate-y: -1/3;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .translate-y-\[-2\/2\] {
+    --tw-translate-y: -2/2;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .resize {
@@ -1020,6 +1085,20 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .hover\:bg-white {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-white);
+      }
+    }
+  }
+  .hover\:text-black {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-black);
+      }
+    }
   }
 }
 @property --tw-translate-x {
