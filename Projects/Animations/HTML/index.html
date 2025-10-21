@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Test Scroll Snap</title>
+
+  <!-- Quick test: Tailwind CDN (only for dev/testing) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* quick scrollbar hide for nicer look (optional) */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  </style>
+</head>
+<body class="bg-gray-50 p-6">
+
+  <h2 class="mb-4">Horizontal scroll-snap test</h2>
+
+  <!-- Limit the visible area so overflow appears -->
+  <div class="w-[90vw] max-w-3xl border rounded p-3">
+    <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory scroll-smooth no-scrollbar">
+      <!-- Use flex-none or shrink-0 and a min width -->
+      <div class="snap-start flex-none min-w-[300px] h-[200px] rounded-lg bg-red-300 flex items-center justify-center">
+        <span>1</span>
+      </div>
+      <div class="snap-start flex-none min-w-[300px] h-[200px] rounded-lg bg-green-300 flex items-center justify-center">
+        <span>2</span>
+      </div>
+      <div class="snap-start flex-none min-w-[300px] h-[200px] rounded-lg bg-blue-300 flex items-center justify-center">
+        <span>3</span>
+      </div>
+      <div class="snap-start flex-none min-w-[300px] h-[200px] rounded-lg bg-yellow-300 flex items-center justify-center">
+        <span>4</span>
+      </div>
+      <div class="snap-start flex-none min-w-[300px] h-[200px] rounded-lg bg-purple-300 flex items-center justify-center">
+        <span>5</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
